@@ -2,7 +2,7 @@
 ####       Programmation de l'échange Diffie-Hellman      ####
 ##############################################################
 import random
-from TD.crypto_but.exp_mod import exp_fast
+from crypto import exp_fast
 
 def main():
     p = 23

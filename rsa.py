@@ -2,8 +2,8 @@
 ####       Programmation du chiffrement RSA      ####
 #####################################################
 #M = "En mathématiques, un corps est une des structures algébriques fondamentales de l'algèbre générale."
-from crypto_but.exp_mod import exp_fast
-from crypto_but.inverse_modn import inverse_modn
+from crypto import exp_fast
+from crypto import inverse_modn
 
 M = "468"
 import math
